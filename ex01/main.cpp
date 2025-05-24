@@ -14,12 +14,7 @@ int main(void)
         std::cout << "Number of Zombie" << i << ": ";
         hordeOfZombies->announce();
     }
-    if(!hordeOfZombies)
-    {
-        std::cout << "Could not create Zombies, out of memory" << endl;
-    }
-    else
-        delete hordeOfZombies;
+    delete[] hordeOfZombies;
 
     return (0);
 }

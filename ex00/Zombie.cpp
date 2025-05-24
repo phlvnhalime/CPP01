@@ -1,7 +1,5 @@
 #include "Zombie.hpp"
 
-using namespace std;
-
 Zombie::Zombie(void)
 {
     this->strName = "";
@@ -11,13 +9,11 @@ Zombie::Zombie(string strName){
     this->strName = strName;
 }
 
-
 Zombie::~Zombie(void)
 {
-    cout << this->strName << "Destroyed it!" << endl;
+    std::cout << this->strName << " Destroyed it!" << std::endl;
 }
 
-
 void Zombie::announce( void ){
-    cout << this->strName << ": BraiiiiiiinnnzzzZ..." << endl;
+    std::cout << this->strName << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
