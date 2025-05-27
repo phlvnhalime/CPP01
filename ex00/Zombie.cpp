@@ -1,6 +1,5 @@
 #include "Zombie.hpp"
 
-using namespace std;
 
 Zombie::Zombie(void)
 {

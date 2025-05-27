@@ -3,11 +3,9 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 class Zombie {
     private:
-        string strName;
+        std::string strName;
     public:
         //Constructor
         Zombie(void);

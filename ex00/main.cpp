@@ -1,11 +1,9 @@
 #include "Zombie.hpp"
 
-using namespace std;
-
 
 int main(void)
 {
-    cout << "Once upon a time, zombies took over the world!" << endl;
+    std::cout << "Once upon a time, zombies took over the world!" << std::endl;
 
     randomChump("Stack Zombie");
 
