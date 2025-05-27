@@ -3,18 +3,20 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 class Zombie {
     private:
-        std::string strName;
+        string strName;
     public:
         //Constructor
         Zombie(void);
-        Zombie(std::string strName);
+        Zombie(string strName);
         //Destructor
         ~Zombie(void);
         void announce( void );
 };
 
 
-Zombie* newZombie( std::string name );
-void randomChump( std::string name );
+
+Zombie* zombieHorde( int N, std::string name );

@@ -1,10 +1,10 @@
-NAME = zombie
+NAME = brain
 
 CXX = c++
 
 CXXFLAG = -Wall -Wextra -Werror -std=c++98
 
-SRCS= main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
+SRCS= main.cpp
 
 OBJ = $(SRCS:.cpp=.o)
 
@@ -17,7 +17,7 @@ $(NAME): $(OBJ)
 	$(CXX) $(CXXFLAG) -c $< -o $@
 
 clean:
-	rm -rf $(OBJ)
+	rm -f $(OBJ)
 
 fclean: clean
 	rm -f $(NAME)
