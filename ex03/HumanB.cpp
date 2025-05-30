@@ -5,9 +5,15 @@ HumanB::HumanB(const std::string &name): name(name), weapon(NULL){
 
 }
 
+/*
+    Or We can do this: 
+    HumanB::HumanB(const std::string &name) {
+    this->name = name;
+    this->weapon = NULL;
+}
+*/
 
 HumanB::~HumanB(){}
-
 
 void HumanB::attack() const{
 

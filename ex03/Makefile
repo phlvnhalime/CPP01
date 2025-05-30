@@ -4,7 +4,7 @@ CXX = c++
 
 CXXFLAG = -Wall -Wextra -Werror -std=c++98
 
-SRCS= main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
+SRCS= main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 
 OBJ = $(SRCS:.cpp=.o)
 

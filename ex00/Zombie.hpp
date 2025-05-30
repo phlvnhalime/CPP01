@@ -3,15 +3,13 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 class Zombie {
     private:
-        string strName;
+        std::string strName;
     public:
         //Constructor
         Zombie(void);
-        Zombie(string strName);
+        Zombie(std::string strName);
         //Destructor
         ~Zombie(void);
         void announce( void );

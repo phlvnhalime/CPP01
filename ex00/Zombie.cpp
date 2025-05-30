@@ -5,7 +5,7 @@ Zombie::Zombie(void)
     this->strName = "";
 }
 
-Zombie::Zombie(string strName){
+Zombie::Zombie(std::string strName){
     this->strName = strName;
 }
 

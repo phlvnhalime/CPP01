@@ -3,7 +3,6 @@
 #include "HumanB.hpp"
 
 
-
 int main()
 {
     {
@@ -15,6 +14,7 @@ int main()
     }
     {
         Weapon club = Weapon("crude spiked club");
+        
         HumanB jim("Jim");
         jim.setWeapon(club);
         jim.attack();
