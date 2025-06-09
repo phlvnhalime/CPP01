@@ -16,5 +16,7 @@ class strReply {
         strReply(const std::string &filename, const std::string& s1,const std::string &s2);
         ~strReply();
         bool validInput(void);
+        bool processFile(void);
+        std::string replaceCase(const std::string &text);
 
 };
