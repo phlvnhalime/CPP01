@@ -1,38 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Weapon.cpp                                         :+:      :+:    :+:   */
+/*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/10 15:44:26 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 15:44:27 by hpehliva         ###   ########.fr       */
+/*   Created: 2025/06/10 12:39:55 by hpehliva          #+#    #+#             */
+/*   Updated: 2025/06/10 20:58:06 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Weapon.hpp"
+#pragma once
 
-/*Constructor*/
-Weapon::Weapon(const std::string &type) : type(type) {
+#include <iostream>
+#include <string>
 
-}
+class Harl {
 
-/*
-    I can make it also
-    Weapon::Weapon(const std::string &type) 
-    {
-        this->type = type;
-    }
-*/
-/*Destructor*/
-Weapon::~Weapon(){
+    private:
+        void debug( void );
+        void info( void );
+        void warning( void );
+        void error( void );
 
-}
-
-const std::string &Weapon::getType() const {
-    return this->type;
-}
-
-void Weapon::setType(const std::string &newType){
-    this->type = newType;
-}
+    public:
+        void complain( std::string level );
+};

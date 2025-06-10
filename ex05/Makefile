@@ -5,18 +5,18 @@
 #                                                     +:+ +:+         +:+      #
 #    By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/06/10 15:44:22 by hpehliva          #+#    #+#              #
-#    Updated: 2025/06/10 15:44:23 by hpehliva         ###   ########.fr        #
+#    Created: 2025/06/10 12:39:49 by hpehliva          #+#    #+#              #
+#    Updated: 2025/06/10 15:48:38 by hpehliva         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = weapon
+NAME = harl
 
 CXX = c++
 
 CXXFLAG = -Wall -Wextra -Werror -std=c++98
 
-SRCS= main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+SRCS= main.cpp Harl.cpp
 
 OBJ = $(SRCS:.cpp=.o)
 
