@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 15:44:36 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 15:44:37 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:14:39 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ int main()
     std::string string;
     std::string *stringPTR;
     
-
     string =  "HI THIS IS BRAIN";
     stringPTR = &string;
     std::string &stringREF = *stringPTR;

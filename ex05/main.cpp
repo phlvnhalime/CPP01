@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 12:39:57 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 21:47:36 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:16:26 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,5 +48,5 @@ int main(void){
 
     harl.complain("error");
     std::cout << std::endl;
-    
+    return (0);
 }

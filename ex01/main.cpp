@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 15:44:45 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 15:44:46 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:14:28 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,5 @@ int main(void)
         hordeOfZombies->announce();
     }
     delete[] hordeOfZombies;
-
     return (0);
 }

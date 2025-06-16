@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 15:44:11 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 15:44:12 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:15:04 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,8 @@
 #include <iostream>
 
 HumanB::HumanB(const std::string &name): name(name), weapon(NULL){
-
+    // Default
 }
-
 /*
     Or We can do this: 
     HumanB::HumanB(const std::string &name) {
@@ -24,7 +23,6 @@ HumanB::HumanB(const std::string &name): name(name), weapon(NULL){
     this->weapon = NULL;
 }
 */
-
 HumanB::~HumanB(){}
 
 void HumanB::attack() const{

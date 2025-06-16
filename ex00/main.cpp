@@ -6,11 +6,12 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 15:45:10 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 15:45:11 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:14:11 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
+
 
 int main(void)
 {
@@ -28,9 +29,6 @@ int main(void)
     {
         std::cout << "Could not create zombie, out of memory!" << std::endl;
     }
-
     randomChump("Stack");
-
-
     return (0);
 }

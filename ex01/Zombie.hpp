@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 15:44:54 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/16 12:06:01 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:14:33 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,5 @@ class Zombie {
         ~Zombie(void);
         void announce( void );
 };
-
-
 
 Zombie* zombieHorde( int N, std::string name );
