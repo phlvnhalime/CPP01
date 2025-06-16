@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 15:44:54 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 15:44:55 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:06:01 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,13 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 class Zombie {
     private:
-        string strName;
+        std::string strName;
     public:
         //Constructor
         Zombie(void);
-        Zombie(string strName);
+        Zombie(std::string strName);
         //Destructor
         ~Zombie(void);
         void announce( void );

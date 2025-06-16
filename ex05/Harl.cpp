@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 12:39:52 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/06/10 21:47:50 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/06/16 12:10:50 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void Harl::complain( std::string level ) {
     
     // call the corresponding function
     
-    for (int i = 0; i <= 4; i++)
+    for (int i = 0; i < 4; i++)
     {
         if(arrayLevel[i] == level)
         {
